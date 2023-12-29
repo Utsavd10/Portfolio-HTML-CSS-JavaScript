@@ -8,6 +8,7 @@
 }
 body{
     font-family: 'Roboto Mono', monospace;
+   
 }
 html{
     scroll-behavior: smooth;
@@ -151,7 +152,7 @@ section{
 #profile{
     display: flex;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 7.5rem;
     height: 85vh;
 }
 .section__pic-container{
@@ -159,6 +160,17 @@ section{
     height: 350px;
     width: 350px;
     margin-left: auto 0;
+}
+.section__pic-container1{
+    display: flex;
+    height: 450px;
+    width: 400px;
+
+}
+.section__pic-container1 img{
+    margin-top: -2rem;
+    margin-bottom: 5rem;
+
 }
 .section__text{
     align-self: center;
@@ -244,7 +256,7 @@ section{
 }
 .about-containers{
     gap: 1.3rem;
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
     margin-bottom: 1.3rem;
 }
 .about-details-container{
@@ -329,9 +341,10 @@ article .icon{
 }
 .project-img{
     border-radius: 2rem;
-    width: 70%;
-    height: 70%;
+    width: 73%;
+    height: 13.2rem;
 }
+
 .project-title{
     margin: 0;
     color: black;
